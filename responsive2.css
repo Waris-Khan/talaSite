@@ -1,0 +1,194 @@
+@media (max-width: 1680px) {
+    .container {
+        width: 90%;
+    }
+    #main-content {
+        height: 1050px;
+    }
+    #main-content .inner {
+        height: 340px;
+    }
+    .inner {
+        padding: 50px 80px 50px 80px;
+    }
+    .inner>h2 {
+        font-size: 48px;
+    }
+    .inner p {
+        font-size: 24px;
+    }
+    .inner a {
+        font-size: 24px;
+    }
+    /* ABOUT PAGE */
+    .about-content h1:after {
+        left: 10px;
+        top: 105px;
+        width: 9%;
+    }
+    .about-content h1 {
+        font-size: 30px;
+    }
+    .about-content h5 {
+        font-size: 24px;
+    }
+    .about-content p {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .title h1 {
+        font-size: 30px;
+    }
+    .title h1:after {
+        width: 10%;
+        top: 104px;
+    }
+    .skill-item .progress-title {
+        font-size: 24px;
+    }
+    .skill-item .progress .progress-value {
+        font-size: 24px;
+    }
+    .skill-item .progress .html5 {
+        position: absolute;
+        top: 15px;
+        right: 30px;
+    }
+    .skill-item .progress .css {
+        position: absolute;
+        top: 80px;
+        right: 30px;
+    }
+    .skill-item .progress .js {
+        position: absolute;
+        top: 145px;
+        right: 30px;
+    }
+    .skill-item .progress .bootstrap {
+        position: absolute;
+        top: 215px;
+        right: 30px;
+    }
+    .education h4 {
+        font-size: 30px;
+    }
+    .experience h4 {
+        font-size: 30px;
+    }
+    .education h4:after {
+        width: 29%;
+        top: 34px;
+    }
+    .experience h4:after {
+        width: 32%;
+        top: 34px;
+    }
+    .education .education-card-1 h5,
+    .education .education-card-2 h5,
+    .education .education-card-3 h5,
+    .experience-card-1 h5,
+    .experience-card-2 h5,
+    .experience-card-3 h5 {
+        font-size: 26px;
+    }
+    .education-card-1 p,
+    .education-card-2 p,
+    .education-card-3 p,
+    .experience-card-1 p,
+    .experience-card-2 p,
+    .experience-card-3 p {
+        font-size: 24px;
+    }
+    /* WORK PAGE */
+    .work-heading h1 {
+        font-size: 40px;
+    }
+    .work-heading:after {
+        left: 95px;
+        top: 180px;
+        width: 9.5%;
+    }
+    .work-content p {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    /* CONTACT PAGE */
+    #contact {
+        height: 960px;
+    }
+    /* .contact-heading {
+        font-size: 38px;
+    } */
+    .contact-heading:after {
+        left: 90px;
+        top: 180px;
+        width: 10%;
+    }
+    .contact-form,
+    .contact-details {
+        padding-top: 120px;
+    }
+    input[type=text]::placeholder {
+        font-size: 24px;
+    }
+    input[type=submit] {
+        font-size: 24px;
+    }
+    .address h4,
+    .phone h4,
+    .email-address h4 {
+        font-size: 24px;
+    }
+    .address p,
+    .phone p,
+    .email-address p {
+        font-size: 24px;
+    }
+    /* SERVICE PAGE */
+    .content {
+        height: 980px;
+    }
+    .service-title h1 {
+        font-size: 30px;
+    }
+    .service-title h1:after {
+        left: 80px;
+        top: 108px;
+        width: 13.5%;
+    }
+    .service-wrapper {
+        height: 800px;
+        padding-top: 40px;
+    }
+    .service-card {
+        height: 380px;
+    }
+    .card-content p {
+        font-size: 24px;
+    }
+    .card-title h5 {
+        font-size: 26px;
+    }
+    footer .copy-right {
+        font-size: 18px;
+    }
+    footer .social-links a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1440px) {
+    /* ABOUT PAGE */
+    /* WORK PAGE */
+    .work-heading:after {
+        left: 143px;
+        top: 180px;
+        width: 11.5%;
+    }
+    /* CONTACT PAGE */
+    .contact-heading:after {
+        left: 150px;
+        top: 180px;
+        width: 10.5%;
+    }
+}

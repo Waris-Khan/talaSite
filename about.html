@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--        <link rel="stylesheet" href="skill-section.css" type="text/css">-->
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!--   FONT-AWESOME     -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!--   FONTS     -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap" rel="stylesheet">
+
+    <!--   CUSTOM STYLESHEET     -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+
+</head>
+
+<body>
+
+    <!--        NAVBAR -->
+    <div id="navbar-box">
+        <div class="container">
+            <nav class="nav-inner">
+                <div class="brand-logo">
+                    <a href="index.html"><span class="navbar-brand h1">TALA</span></a>
+                </div>
+                <div class="btn-box">
+                    <a class="btn btn-link" onclick="openNav()"><i class="fa fa-bars" style="color:black;"></i></a>
+                </div>
+            </nav>
+
+            <div class="overlay" id="myNav">
+                <div class="overlay-content">
+                    <div class="close-btn-box">
+                        <a href="javascript:void(0)" onclick="closeNav()" class="close-btn">&times;</a>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="work.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--
+        <div class="col-md-2">
+            <div class="wrapper">
+                <h1>A</h1>
+                <h1>B</h1>
+                <h1>O</h1>
+                <h1>U</h1>
+                <h1>T</h1>
+            </div>
+        </div>
+-->
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="about-content">
+                <h1>ABOUT</h1>
+                <h5>Hi, my name is Tala.</h5>
+                <p>I'm a web designer / developer based in Toronto, Canada. I have a passion for web design and love to create for web and mobile devices.I build clean, appealing, and functional interfaces which comply with the latest web standards. I like
+                    to watch football games, designing, or building something that didn’t exist before.</p>
+            </div>
+            <!--     SKILLS SECTION           -->
+            <section id="skill-section">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="title">
+                            <h1>SKILLS</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-1 skills">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6">
+
+                            <!-- Skill Item -->
+                            <div class="skill-item">
+                                <h5 class="progress-title">HTML5</h5>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:98%">
+                                        <div class="progress-value html5">98%</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Skill Item -->
+                            <div class="skill-item">
+                                <h5 class="progress-title">CSS3</h5>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:85%">
+                                        <div class="progress-value css">85%</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Skill Item -->
+                            <div class="skill-item">
+                                <h5 class="progress-title">JavaScript</h5>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:50%;">
+                                        <div class="progress-value js">50%</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Skill Item -->
+                            <div class="skill-item">
+                                <h5 class="progress-title">Bootstrap</h5>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:60%">
+                                        <div class="progress-value bootstrap">60%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--        SKILLS SECTION END        -->
+
+
+            <!-----------------------------------------------
+                            EDUCATION AND EXPERIENCE SECTION
+                ------------------------------------------------->
+
+            <section id="education-experience">
+                <!-- <div class="container"> -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="education">
+                            <h4>EDUCATION</h4>
+
+                            <div class="education-card-1">
+                                <h5 style="font-weight: 900;">Art University - New York</h5>
+                                <p>Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri.</p>
+                                <p>2006-2008</p>
+                            </div><br />
+                            <div class="education-card-2">
+                                <h5>Programming Course - Paris</h5>
+                                <p>Coursework - Git, WordPress, Javascript, iOS, Android.</p>
+                                <p>2005-2006</p>
+                            </div><br />
+                            <div class="education-card-3">
+                                <h5>Web Design Course - London</h5>
+                                <p>Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript.</p>
+                                <p>204-2005</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="experience">
+                            <h4>EXPERIENCE</h4>
+
+                            <div class="experience-card-1">
+                                <h5>Art Director - Facebook Inc.</h5>
+                                <p>Collaborate with creative and development teams on the execution of ideas.</p>
+                                <p>2013-Present</p>
+                            </div><br />
+                            <div class="experience-card-2">
+                                <h5>Front-End Developer - Google Inc.</h5>
+                                <p>Monitored technical aspects of the front-end delivery for projects.</p>
+                                <p>2011-2012</p>
+                            </div><br />
+                            <div class="experience-card-3">
+                                <h5>Senior Developer - ABC Inc.</h5>
+                                <p>Optimize your website and apps performance using latest technology.</p>
+                                <p>2009-2010</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </section>
+
+            <div class="advertise col-md-12 col-sm-12 col-xs-12">
+                <h2>Ready to start your next project?</h2>
+                <a href="contact.html" class="btn btn-link">Contact Me</a>
+            </div>
+
+            <!-- </div> -->
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="copy-right">
+            <p>© 2019 Khan. All rights reserved.</p>
+        </div>
+        <div class="social-links">
+            <a target="_blank" href="https://www.linkedin.com/"> <span><i class="fa fa-facebook-f"></i></span> </a>
+            <a target="_blank" href="https://www.linkedin.com/"> <span><i class="fa fa-envelope"></i></span> </a>
+            <a target="_blank" href="https://www.linkedin.com/"> <span><i class="fa fa-linkedin"></i></span> </a>
+        </div>
+    </footer>
+
+    <script>
+        function openNav() {
+
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+</body>
+
+</html>

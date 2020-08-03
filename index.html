@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <!--   FONT-AWESOME     -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!--   FONTS     -->
+    <!--        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap" rel="stylesheet">
+
+    <!--   CUSTOM STYLESHEET     -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+
+</head>
+
+<body>
+
+    <div id="navbar-box">
+        <div class="container">
+            <nav class="nav-inner">
+                <div class="brand-logo">
+                    <span class="navbar-brand h1">TALA</span>
+                </div>
+                <div class="btn-box">
+                    <a class="btn btn-link" onclick="openNav()"><i class="fa fa-bars" style="color:black;"></i></a>
+                </div>
+            </nav>
+
+            <div class="overlay" id="myNav">
+                <div class="overlay-content">
+                    <div class="close-btn-box">
+                        <a href="javascript:void(0)" onclick="closeNav()" class="close-btn">&times;</a>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="work.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main id="main-content">
+        <!--            <div class="container">-->
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+
+                <div class="inner intro flex-setting">
+                    <h2>Hi,<span style="text-transform:lowercase;font-family:Roboto Mono;"> my name is Tala.</span></h2>
+                    <p>I'm a web designer / developer based in Toronto, Canada. I have a passion for web design and love
+                        to create for web and mobile devices.</p>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+
+                <div class="inner">
+                    <div class="img-box"><i class="fa fa-info-circle" style="font-size:45px;"></i></div>
+                    <h2>About</h2>
+                    <a href="about.html">Who am i</a>
+                </div>
+            </div>
+
+            <div class="w-100"></div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+
+                <div class="inner">
+                    <div class="img-box"><i class="fa fa-desktop" style="font-size:45px;"></i></div>
+                    <h2>Work</h2>
+                    <a href="work.html">What i have done so far</a>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+
+                <div class="inner">
+                    <div class="img-box"><i class="fa fa-phone" style="font-size:45px;"></i></div>
+                    <h2>Contact</h2>
+                    <a href="contact.html">I can help</a>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+
+                <div class="inner">
+                    <div class="img-box"><i class="fa fa-cogs" style="font-size:45px;"></i></div>
+                    <h2>Services</h2>
+                    <a href="services.html">What i can do</a>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 block">
+
+                <div class="inner">
+                    <div class="img-box"><i class="fa fa-code" style="font-size:45px;"></i></div>
+                    <h2>Skills</h2>
+                    <a>What i know</a>
+                </div>
+
+            </div>
+        </div>
+        <!--            </div>-->
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="copy-right">
+            <p>© 2019 Khan. All rights reserved.</p>
+        </div>
+        <div class="social-links">
+            <a target="_blank" href="https://www.linkedin.com/"> <span><i class="fa fa-facebook-f"></i></span> </a>
+            <a target="_blank" href="https://www.linkedin.com/"> <span><i class="fa fa-envelope"></i></span> </a>
+            <a target="_blank" href="https://www.linkedin.com/"> <span><i class="fa fa-linkedin"></i></span> </a>
+        </div>
+    </footer>
+
+    <script>
+        function openNav() {
+
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+</body>
+
+</html>

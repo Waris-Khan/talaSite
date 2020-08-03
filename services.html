@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!--   FONT-AWESOME     -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3c4799052e.js" crossorigin="anonymous"></script>
+
+    <!--   FONTS     -->
+    <!--        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap" rel="stylesheet">
+
+    <!--   CUSTOM STYLESHEET     -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+
+</head>
+
+<body>
+
+    <div id="navbar-box">
+        <div class="container">
+            <nav class="nav-inner">
+                <div class="brand-logo">
+                    <a href="index.html"><span class="navbar-brand h1">TALA</span></a>
+                </div>
+                <div class="btn-box">
+                    <a class="btn btn-link" onclick="openNav()"><i class="fa fa-bars" style="color:black;"></i></a>
+                </div>
+            </nav>
+
+            <div class="overlay" id="myNav">
+                <div class="overlay-content">
+                    <div class="close-btn-box">
+                        <a href="javascript:void(0)" onclick="closeNav()" class="close-btn">&times;</a>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="work.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row content">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container">
+                        <div class="service-title">
+                            <h1>SERVICES</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <!--                    <div class="container">-->
+                    <div class="service-wrapper">
+                        <div class="col-md-4 col-sm-6 col-xs-6 service-card">
+                            <div class="card-title">
+                                <h5> <span><i class="fa fa-desktop"></i></span> Web Design</h5>
+                            </div>
+                            <div class="card-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6 service-card">
+                            <div class="card-title">
+                                <h5> <span><i class="fa fa-code"></i></span> Web Development</h5>
+                            </div>
+                            <div class="card-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6 service-card">
+                            <div class="card-title">
+                                <h5> <span><i class="fab fa-sketch"></i></span> Logo Design</h5>
+                            </div>
+                            <div class="card-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-6 service-card">
+                            <div class="card-title">
+                                <h5> <span><i class="fa fa-search"></i></span> SEO</h5>
+                            </div>
+                            <div class="card-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6 service-card">
+                            <div class="card-title">
+                                <h5> <span><i class="fa fa-palette"></i></span> Design</h5>
+                            </div>
+                            <div class="card-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6 service-card">
+                            <div class="card-title">
+                                <h5> <span><i class="fa fa-rocket"></i></span> Branding</h5>
+                            </div>
+                            <div class="card-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--                    </div>-->
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="copy-right">
+            <p>© 2019 Khan. All rights reserved.</p>
+        </div>
+        <div class="social-links">
+            <a target="_blank" href="https://www.facebook.com/"> <span><i class="fab fa-facebook-f"></i></span> </a>
+            <a target="_blank" href="https://www.gmail.com/"> <span><i class="fa fa-envelope"></i></span> </a>
+            <a target="_blank" href="https://www.linkedin.com/"> <span><i class="fab fa-linkedin"></i></span> </a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script>
+        function openNav() {
+
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+</body>
+
+</html>

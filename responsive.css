@@ -1,0 +1,662 @@
+@media (min-width: 1680px) {
+    .container {
+        width: 90%;
+    }
+    #main-content {
+        height: 1050px;
+    }
+    #main-content .inner {
+        height: 340px;
+    }
+    .inner {
+        padding: 50px 80px 50px 80px;
+    }
+    .inner>h2 {
+        font-size: 48px;
+    }
+    .inner p {
+        font-size: 24px;
+    }
+    .inner a {
+        font-size: 24px;
+    }
+    /* ABOUT PAGE */
+    .about-content h1:after {
+        left: 10px;
+        top: 105px;
+        width: 9%;
+    }
+    .about-content h1 {
+        font-size: 30px;
+    }
+    .about-content h5 {
+        font-size: 24px;
+    }
+    .about-content p {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .title h1 {
+        font-size: 30px;
+    }
+    .title h1:after {
+        width: 10%;
+        top: 104px;
+    }
+    .skill-item .progress-title {
+        font-size: 24px;
+    }
+    .skill-item .progress .progress-value {
+        font-size: 24px;
+    }
+    .skill-item .progress .html5 {
+        position: absolute;
+        top: 15px;
+        right: 30px;
+    }
+    .skill-item .progress .css {
+        position: absolute;
+        top: 80px;
+        right: 30px;
+    }
+    .skill-item .progress .js {
+        position: absolute;
+        top: 145px;
+        right: 30px;
+    }
+    .skill-item .progress .bootstrap {
+        position: absolute;
+        top: 215px;
+        right: 30px;
+    }
+    .education h4 {
+        font-size: 30px;
+    }
+    .experience h4 {
+        font-size: 30px;
+    }
+    .education h4:after {
+        width: 29%;
+        top: 34px;
+    }
+    .experience h4:after {
+        width: 32%;
+        top: 34px;
+    }
+    .education .education-card-1 h5,
+    .education .education-card-2 h5,
+    .education .education-card-3 h5,
+    .experience-card-1 h5,
+    .experience-card-2 h5,
+    .experience-card-3 h5 {
+        font-size: 26px;
+    }
+    .education-card-1 p,
+    .education-card-2 p,
+    .education-card-3 p,
+    .experience-card-1 p,
+    .experience-card-2 p,
+    .experience-card-3 p {
+        font-size: 24px;
+    }
+    /* WORK PAGE */
+    .work-heading h1 {
+        font-size: 40px;
+    }
+    .work-heading:after {
+        left: 95px;
+        top: 180px;
+        width: 9.5%;
+    }
+    .work-content p {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    /* CONTACT PAGE */
+    #contact {
+        height: 960px;
+    }
+    /* .contact-heading {
+        font-size: 38px;
+    } */
+    .contact-heading:after {
+        left: 90px;
+        top: 180px;
+        width: 10%;
+    }
+    .contact-form,
+    .contact-details {
+        padding-top: 120px;
+    }
+    input[type=text]::placeholder {
+        font-size: 24px;
+    }
+    input[type=submit] {
+        font-size: 24px;
+    }
+    .address h4,
+    .phone h4,
+    .email-address h4 {
+        font-size: 24px;
+    }
+    .address p,
+    .phone p,
+    .email-address p {
+        font-size: 24px;
+    }
+    /* SERVICE PAGE */
+    .content {
+        height: 980px;
+    }
+    .service-title h1 {
+        font-size: 30px;
+    }
+    .service-title h1:after {
+        left: 80px;
+        top: 108px;
+        width: 13.5%;
+    }
+    .service-wrapper {
+        height: 800px;
+        padding-top: 40px;
+    }
+    .service-card {
+        height: 380px;
+    }
+    .card-content p {
+        font-size: 24px;
+    }
+    .card-title h5 {
+        font-size: 26px;
+    }
+    footer .copy-right {
+        font-size: 18px;
+    }
+    footer .social-links a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1440px) {
+    /* ABOUT PAGE */
+    /* WORK PAGE */
+    .work-heading:after {
+        left: 143px;
+        top: 180px;
+        width: 11.5%;
+    }
+    /* CONTACT PAGE */
+    .contact-heading:after {
+        left: 180px;
+        top: 180px;
+        width: 10.5%;
+    }
+}
+
+@media (max-width: 1200px) {
+    /* ABOUT PAGE */
+    .about-content h1::after {
+        width: 8%;
+    }
+    .title h1:after {
+        width: 9%;
+    }
+    .education h4:after {
+        width: 24.5%;
+    }
+    .experience h4:after {
+        width: 27.5%;
+    }
+    /* WORK PAGE */
+    .work-heading:after {
+        left: 20px;
+        top: 180px;
+        width: 13%;
+    }
+    /* CONTACT PAGE */
+    .contact-heading:after {
+        left: 60px;
+        top: 180px;
+        width: 13%;
+    }
+    /* SERVICE PAGE */
+    .service-title h1:after {
+        width: 13%;
+    }
+}
+
+@media (max-width: 1024px) {
+    /* ABOUT PAGE */
+    .about-content h1::after {
+        width: 9%;
+    }
+    .title h1:after {
+        width: 11%;
+    }
+    .education h4:after {
+        width: 29%;
+    }
+    .experience h4:after {
+        width: 33%;
+    }
+    /* WORK PAGE */
+    .work-heading:after {
+        left: 34px;
+        top: 180px;
+        width: 15%;
+    }
+    /* CONTACT PAGE */
+    .contact-heading:after {
+        left: 70px;
+        top: 180px;
+        width: 15.5%;
+    }
+    /* SERVICE PAGE */
+    .service-title h1:after {
+        width: 15%;
+    }
+}
+
+@media (max-width: 768px) {
+    /* ABOUT PAGE */
+    .about-content {
+        /* border: 1px solid red; */
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .about-content h1::after {
+        width: 8%;
+        top: 15px;
+        left: 44px;
+    }
+    #skill-section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .title h1:after {
+        width: 11%;
+        top: 15px;
+    }
+    #education-experience {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .education h4:after {
+        width: 14.5%;
+        top: 13px;
+    }
+    .experience h4 {
+        margin-top: 70px;
+    }
+    .experience h4:after {
+        width: 16%;
+        top: 13px;
+    }
+    .advertise h2 {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    /* WORK PAGE */
+    .work-heading:after {
+        left: 13px;
+        top: 180px;
+        width: 21%;
+    }
+    .row-space {
+        display: flex;
+        flex-direction: column;
+    }
+    .row-space .work-img {
+        /* border: 1px solid red; */
+        order: 1;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .row-space .work-content {
+        /* border: 1px solid blue; */
+        order: 2;
+        width: 100%;
+    }
+    /* CONTACT PAGE */
+    #contact>.container {
+        display: flex;
+        flex-direction: column;
+    }
+    #contact>.container .contact-form {
+        /* border: 1px solid red; */
+        order: 2;
+        width: 100%;
+        margin-top: 50px;
+    }
+    #contact>.container .contact-details {
+        /* border: 1px solid blue; */
+        order: 1;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .contact-heading:after {
+        left: 15px;
+        top: 180px;
+        width: 20%;
+    }
+    /* SERVICE PAGE */
+    .service-title h1:after {
+        width: 15%;
+    }
+    .service-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    /* ABOUT PAGE */
+    .about-content {
+        /* border: 1px solid red; */
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .about-content h1::after {
+        width: 10%;
+        top: 15px;
+        left: 44px;
+    }
+    #skill-section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .title h1:after {
+        width: 13%;
+        top: 15px;
+    }
+    #education-experience {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .education h4:after {
+        width: 17.5%;
+        top: 13px;
+    }
+    .experience h4 {
+        margin-top: 70px;
+    }
+    .experience h4:after {
+        width: 19.5%;
+        top: 13px;
+    }
+    .advertise h2 {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    /* WORK PAGE */
+    /* #work {
+        padding-left: 30px;
+        padding-right: 30px;
+    } */
+    .work-heading:after {
+        left: 13px;
+        top: 180px;
+        width: 25%;
+    }
+    .row-space {
+        display: flex;
+        flex-direction: column;
+    }
+    .row-space .work-img {
+        /* border: 1px solid red; */
+        order: 1;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .row-space .work-content {
+        /* border: 1px solid blue; */
+        order: 2;
+        width: 100%;
+    }
+    /* CONTACT PAGE */
+    #contact>.container {
+        display: flex;
+        flex-direction: column;
+    }
+    #contact>.container .contact-form {
+        /* border: 1px solid red; */
+        order: 2;
+        width: 100%;
+        margin-top: 50px;
+    }
+    #contact>.container .contact-details {
+        /* border: 1px solid blue; */
+        order: 1;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 5px;
+    }
+    .contact-heading:after {
+        left: 15px;
+        top: 180px;
+        width: 24%;
+    }
+    /* SERVICE PAGE */
+    .service-title h1:after {
+        width: 16.5%;
+    }
+    .service-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* ABOUT PAGE */
+    .about-content {
+        /* border: 1px solid red; */
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .about-content h1::after {
+        width: 13.5%;
+        top: 15px;
+        left: 44px;
+    }
+    #skill-section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .title h1:after {
+        width: 18%;
+        top: 15px;
+    }
+    #education-experience {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .education h4:after {
+        width: 24.5%;
+        top: 13px;
+    }
+    .experience h4 {
+        margin-top: 70px;
+    }
+    .experience h4:after {
+        width: 26.5%;
+        top: 13px;
+    }
+    .advertise {
+        display: block;
+        text-align: center;
+    }
+    .advertise a {
+        float: none;
+        margin-top: 10px;
+        width: 50%;
+    }
+    .advertise h2 {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    /* WORK PAGE */
+    /* #work {
+        padding-left: 30px;
+        padding-right: 30px;
+    } */
+    .work-heading:after {
+        left: 13px;
+        top: 180px;
+        width: 33%;
+    }
+    .row-space {
+        display: flex;
+        flex-direction: column;
+    }
+    .row-space .work-img {
+        /* border: 1px solid red; */
+        order: 1;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .row-space .work-content {
+        /* border: 1px solid blue; */
+        order: 2;
+        width: 100%;
+    }
+    /* CONTACT PAGE */
+    #contact>.container {
+        display: flex;
+        flex-direction: column;
+    }
+    #contact>.container .contact-form {
+        /* border: 1px solid red; */
+        order: 2;
+        width: 100%;
+        margin-top: 50px;
+    }
+    #contact>.container .contact-details {
+        /* border: 1px solid blue; */
+        order: 1;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 5px;
+    }
+    .contact-heading:after {
+        left: 15px;
+        top: 180px;
+        width: 33%;
+    }
+    /* SERVICE PAGE */
+    .service-title h1:after {
+        width: 22%;
+    }
+    .service-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    /* ABOUT PAGE */
+    .about-content {
+        /* border: 1px solid red; */
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about-content h1::after {
+        width: 20%;
+        top: 15px;
+        left: 24px;
+    }
+    #skill-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .title h1:after {
+        width: 26.5%;
+        top: 15px;
+    }
+    #education-experience {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .education h4:after {
+        width: 35.5%;
+        top: 13px;
+    }
+    .experience h4 {
+        margin-top: 70px;
+    }
+    .experience h4:after {
+        width: 38.5%;
+        top: 13px;
+    }
+    .advertise {
+        display: block;
+        text-align: center;
+    }
+    .advertise a {
+        float: none;
+        margin-top: 10px;
+        width: 50%;
+    }
+    .advertise h2 {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    /* WORK PAGE */
+    /* #work {
+        padding-left: 30px;
+        padding-right: 30px;
+    } */
+    .work-heading:after {
+        left: 13px;
+        top: 180px;
+        width: 52%;
+    }
+    .row-space {
+        display: flex;
+        flex-direction: column;
+    }
+    .row-space .work-img {
+        /* border: 1px solid red; */
+        order: 1;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .row-space .work-content {
+        /* border: 1px solid blue; */
+        order: 2;
+        width: 100%;
+    }
+    /* CONTACT PAGE */
+    #contact>.container {
+        display: flex;
+        flex-direction: column;
+    }
+    #contact>.container .contact-form {
+        /* border: 1px solid red; */
+        order: 2;
+        width: 100%;
+        margin-top: 50px;
+    }
+    #contact>.container .contact-details {
+        /* border: 1px solid blue; */
+        order: 1;
+        width: 100%;
+        display: block;
+        justify-content: space-evenly;
+        padding-left: 5px;
+    }
+    .contact-heading:after {
+        left: 15px;
+        top: 180px;
+        width: 50%;
+    }
+    /* SERVICE PAGE */
+    .service-title h1:after {
+        width: 34%;
+    }
+    .service-card {
+        padding: 20px;
+    }
+    .col-xs-6 {
+        width: 100%;
+    }
+}
