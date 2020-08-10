@@ -178,18 +178,294 @@
 }
 
 @media (min-width: 1440px) {
+    /* HOME PAGE */
+    #main-content{
+        margin-bottom: 55px;
+    }
+    .nav-inner {
+        height: 75px;
+    }
+    .navbar-brand {
+        font-size: 28px;
+    }
+    .btn-box .fa {
+        font-size: 28px;
+    }
+    .inner {
+        height: 269px;
+    }
+    .inner>h2 {
+        font-size: 48px;
+    }
+    .inner p {
+        font-size: 24px;
+    }
+    .inner a {
+        font-size: 24px;
+    }
     /* ABOUT PAGE */
+    .about-content h1 {
+        font-size: 48px;
+    }
+    .about-content h1::after {
+        left: 15px;
+        top: 120px;
+        width: 14.5%;
+    }
+    .about-content>h5 {
+        font-size: 24px;
+    }
+    .about-content p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .title h1 {
+        font-size: 48px;
+    }
+    .title h1:after {
+        left: 15px;
+        top: 120px;
+        width: 18%;
+    }
+    .progress {
+        height: 10px;
+        border-radius: 50px;
+        /*    border: 1px solid #25ca7f;*/
+    }
+
+    .progress-title{
+        font-size: 18px;
+    }
+    
+    .skill-item .progress .progress-value {
+        /*    background-color: #ffb100;*/
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "Roboto Mono", monospace;
+    }
+    
+    .skill-item .progress .html5 {
+        position: absolute;
+        top: 10px;
+        right: 30px;
+    }
+    
+    .skill-item .progress .css {
+        top: 70px;
+    }
+    
+    .skill-item .progress .js {
+        top: 130px;
+    }
+    
+    .skill-item .progress .bootstrap {
+        top: 187px;
+    }
+
+    .education h4, .experience h4 {
+        font-size: 28px;
+    }
+    .education h4:after {
+        left: 15px;
+        top: 30px;
+        width: 31.8%;
+    }
+    .experience h4:after {
+        left: 15px;
+        top: 30px;
+        width: 34.5%;
+    }
+    .advertise{
+        margin-bottom: 70px;
+    }
     /* WORK PAGE */
+    .work-heading {
+        font-size: 48px;
+    }
     .work-heading:after {
-        left: 143px;
-        top: 180px;
-        width: 11.5%;
+        left: 140px;
+        top: 215px;
+        width: 14.5%;
+    }
+    .work-title{
+        font-size: 36px;
+    }
+    .work-content p {
+        font-size: 18px;
     }
     /* CONTACT PAGE */
+    .contact-heading {
+        margin-left: 10px;
+        font-size: 48px;
+    }
     .contact-heading:after {
-        left: 180px;
-        top: 180px;
-        width: 10.5%;
+        left: 160px;
+        top: 215px;
+        width: 14%;
+    }
+
+    .contact-form p{
+        font-size: 18px;
+    }
+
+    /* SERVICES PAGE */
+    .service-title h1 {
+        font-size: 48px;
+    }
+    .service-title h1:after {
+        left: 27px;
+        top: 120px;
+        width: 24%;
+    }
+    .card-title h5{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1366px) {
+    /* HOME PAGE */
+    #main-content{
+        margin-bottom: 55px;
+    }
+    .nav-inner {
+        height: 75px;
+    }
+    .navbar-brand {
+        font-size: 28px;
+    }
+    .btn-box .fa {
+        font-size: 28px;
+    }
+    .inner {
+        height: 269px;
+    }
+    .inner>h2 {
+        font-size: 47px;
+    }
+    .inner p {
+        font-size: 24px;
+    }
+    .inner a {
+        font-size: 24px;
+    }
+    /* ABOUT PAGE */
+    .about-content h1 {
+        font-size: 48px;
+    }
+    .about-content h1::after {
+        left: 15px;
+        top: 120px;
+        width: 15%;
+    }
+    .about-content>h5 {
+        font-size: 24px;
+    }
+    .about-content p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .title h1 {
+        font-size: 48px;
+    }
+    .title h1:after {
+        left: 15px;
+        top: 120px;
+        width: 18.8%;
+    }
+    .progress {
+        height: 10px;
+        border-radius: 50px;
+        /*    border: 1px solid #25ca7f;*/
+    }
+
+    .progress-title{
+        font-size: 18px;
+    }
+    
+    .skill-item .progress .progress-value {
+        /*    background-color: #ffb100;*/
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "Roboto Mono", monospace;
+    }
+    
+    .skill-item .progress .html5 {
+        position: absolute;
+        top: 10px;
+        right: 30px;
+    }
+    
+    .skill-item .progress .css {
+        top: 70px;
+    }
+    
+    .skill-item .progress .js {
+        top: 130px;
+    }
+    
+    .skill-item .progress .bootstrap {
+        top: 187px;
+    }
+
+    .education h4, .experience h4 {
+        font-size: 28px;
+    }
+    .education h4:after {
+        left: 15px;
+        top: 30px;
+        width: 33%;
+    }
+    .experience h4:after {
+        left: 15px;
+        top: 30px;
+        width: 36.8%;
+    }
+    .advertise{
+        margin-bottom: 70px;
+    }
+    /* WORK PAGE */
+    .work-heading {
+        font-size: 48px;
+    }
+    .work-heading:after {
+        left: 105px;
+        top: 215px;
+        width: 14.8%;
+    }
+    .work-title{
+        font-size: 36px;
+    }
+    .work-content p {
+        font-size: 18px;
+    }
+    /* CONTACT PAGE */
+    .contact-heading {
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .contact-heading:after {
+        left: 115px;
+        top: 215px;
+        width: 15%;
+    }
+
+    .contact-form p{
+        font-size: 18px;
+    }
+
+    /* SERVICES PAGE */
+    .service-title h1 {
+        font-size: 48px;
+    }
+    .service-title h1:after {
+        left: 27px;
+        top: 120px;
+        width: 26%;
+    }
+    .card-title h5{
+        font-size: 24px;
     }
 }
 
@@ -226,47 +502,177 @@
 }
 
 @media (max-width: 1024px) {
+    /* HOME PAGE */
+    #main-content{
+        margin-bottom: 55px;
+    }
+    .nav-inner {
+        height: 50px;
+    }
+    .navbar-brand {
+        font-size: 28px;
+    }
+    .btn-box .fa {
+        font-size: 28px;
+    }
+    .inner {
+        height: 285px;
+    }
+    .intro h2{
+        font-size: 33px !important;
+    }
+    .inner>h2 {
+        font-size: 40px;
+    }
+    .inner p {
+        font-size: 20px;
+    }
+    .inner a {
+        font-size: 20px;
+    }
+
+    footer{
+        height: 50px;
+    }
     /* ABOUT PAGE */
+    .about-content h1 {
+        font-size: 40px;
+    }
     .about-content h1::after {
-        width: 9%;
+        left: 15px;
+        top: 110px;
+        width: 17%;
+    }
+    .about-content>h5 {
+        font-size: 24px;
+    }
+    .about-content p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .title h1 {
+        font-size: 40px;
     }
     .title h1:after {
-        width: 11%;
+        left: 15px;
+        top: 115px;
+        width: 22%;
+    }
+    .progress-title{
+        font-size: 18px;
+    }
+    .skill-item .progress .progress-value {
+        /*    background-color: #ffb100;*/
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "Roboto Mono", monospace;
+    }
+    
+    .skill-item .progress .html5 {
+        position: absolute;
+        top: 10px;
+        right: 30px;
+    }
+    
+    .skill-item .progress .css {
+        top: 70px;
+    }
+    
+    .skill-item .progress .js {
+        top: 130px;
+    }
+    
+    .skill-item .progress .bootstrap {
+        top: 187px;
+    }
+    .education h4, .experience h4 {
+        font-size: 28px;
     }
     .education h4:after {
-        width: 29%;
+        left: 15px;
+        top: 30px;
+        width: 44%;
     }
     .experience h4:after {
-        width: 33%;
+        left: 15px;
+        top: 30px;
+        width: 49%;
+    }
+
+    .advertise h2{
+        font-size: 24px;
+    }
+    .advertise a{
+        margin-top: 18px;
     }
     /* WORK PAGE */
+    .work-title{
+        margin-top: 0px;
+    }
+    .work-content {
+        padding: 10px 30px 20px;
+    }
+
     .work-heading:after {
         left: 34px;
         top: 180px;
         width: 15%;
     }
     /* CONTACT PAGE */
+    .contact-heading{
+        margin-left: 15px;
+    }
     .contact-heading:after {
-        left: 70px;
+        left: 55px;
         top: 180px;
         width: 15.5%;
     }
     /* SERVICE PAGE */
+    .service-title h1 {
+        font-size: 40px;
+    }
     .service-title h1:after {
-        width: 15%;
+        left: 27px;
+        top: 115px;
+        width: 29%;
+    }
+    .card-title h5{
+        font-size: 17px;
     }
 }
 
 @media (max-width: 768px) {
+     /* HOME PAGE */
+     
+    .inner {
+        height: 316px;
+    }
+    .intro h2{
+        font-size: 22px !important;
+    }
+    .inner>h2 {
+        font-size: 44px;
+    }
+    .inner p {
+        font-size: 20px;
+    }
+    .inner a {
+        font-size: 22px;
+    }
+    
     /* ABOUT PAGE */
+    .center{
+        margin: 0px 20px;
+    }
     .about-content {
         /* border: 1px solid red; */
         padding-left: 30px;
         padding-right: 30px;
     }
     .about-content h1::after {
-        width: 8%;
-        top: 15px;
+        width: 16%;
+        top: 33px;
         left: 44px;
     }
     #skill-section {
@@ -274,33 +680,39 @@
         padding-right: 30px;
     }
     .title h1:after {
-        width: 11%;
-        top: 15px;
+        width: 22%;
+        top: 33px;
     }
     #education-experience {
         padding-left: 30px;
         padding-right: 30px;
     }
     .education h4:after {
-        width: 14.5%;
-        top: 13px;
+        width: 22.5%;
+        top: 20px;
     }
     .experience h4 {
         margin-top: 70px;
     }
     .experience h4:after {
-        width: 16%;
-        top: 13px;
+        width: 24.5%;
+        top: 20px;
     }
     .advertise h2 {
         font-size: 20px;
         margin-top: 35px;
     }
+    .advertise a{
+        margin-top: 30px;
+    }
     /* WORK PAGE */
+    .work-heading{
+        padding: 50px;
+    }
     .work-heading:after {
-        left: 13px;
-        top: 180px;
-        width: 21%;
+        left: 63px;
+        top: 240px;
+        width: 27.5%;
     }
     .row-space {
         display: flex;
@@ -310,14 +722,20 @@
         /* border: 1px solid red; */
         order: 1;
         width: 100%;
-        margin-top: 50px;
+        padding: 50px;
     }
+    
     .row-space .work-content {
         /* border: 1px solid blue; */
         order: 2;
         width: 100%;
+        padding: 50px;
     }
     /* CONTACT PAGE */
+
+    #contact{
+        margin: 0px 20px;
+    }
     #contact>.container {
         display: flex;
         flex-direction: column;
@@ -333,16 +751,23 @@
         order: 1;
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .contact-heading:after {
-        left: 15px;
-        top: 180px;
-        width: 20%;
+        left: 45px;
+        top: 195px;
+        width: 28%;
+    }
+    .contact-details {
+        padding-left: 0px;
     }
     /* SERVICE PAGE */
+    .content{
+        padding: 0px 50px;
+        margin-bottom: 80px;
+    }
     .service-title h1:after {
-        width: 15%;
+        width: 28%;
     }
     .service-card {
         padding: 20px;
@@ -549,6 +974,166 @@
     }
     .service-card {
         padding: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    /* HOME PAGE */
+    .copy-right p{
+        font-size: 8px;
+        margin: 0px;
+    }
+
+    footer{
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+    }
+
+    footer .social-links a{
+        font-size: 8px;
+    }
+
+    /* ABOUT PAGE */
+    .about-content h1 {
+        font-size: 30px;
+    }
+    .about-content {
+        /* border: 1px solid red; */
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about-content h1::after {
+        width: 27%;
+        top: 22px;
+        left: 24px;
+    }
+    .about-content>h5 {
+        font-size: 18px;
+    }
+    .about-content p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #skill-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .title h1 {
+        font-size: 30px;
+    }
+    .title h1:after {
+        width: 34.5%;
+        top: 23px;
+    }
+    #education-experience {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .education h4:after {
+        width: 48.5%;
+        top: 20px;
+    }
+    .experience h4 {
+        margin-top: 70px;
+    }
+    .experience h4:after {
+        width: 53.5%;
+        top: 20px;
+    }
+    .advertise {
+        display: block;
+        text-align: center;
+    }
+    .advertise a {
+        float: none;
+        margin-top: 10px;
+        width: 50%;
+    }
+    .advertise h2 {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    /* WORK PAGE */
+    .work-heading {
+        padding: 10px;
+        font-size: 36px;
+    }
+    .work-heading:after {
+        left: 20px;
+        top: 190px;
+        width: 46%;
+    }
+    .row-space {
+        display: flex;
+        flex-direction: column;
+    }
+    .row-space .work-img {
+        /* border: 1px solid red; */
+        order: 1;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .row-space .work-content {
+        /* border: 1px solid blue; */
+        order: 2;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .work-title {
+        font-size: 30px;
+    }
+    .work-content p {
+        font-size: 14px;
+    }
+    /* CONTACT PAGE */
+    .contact-heading {
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    #contact>.container {
+        display: flex;
+        flex-direction: column;
+    }
+    #contact>.container .contact-form {
+        /* border: 1px solid red; */
+        order: 2;
+        width: 100%;
+        margin-top: 50px;
+    }
+    #contact>.container .contact-details {
+        /* border: 1px solid blue; */
+        order: 1;
+        width: 100%;
+        display: block;
+        justify-content: space-evenly;
+        padding-left: 5px;
+    }
+    .contact-heading:after {
+        left: 40px;
+        top: 175px;
+        width: 39%;
+    }
+    .contact-form p {
+        font-size: 14px;
+    }
+    /* SERVICE PAGE */
+    .service-title h1:after {
+        width: 55.5%;
+    }
+    .service-card {
+        padding: 20px;
+    }
+    .col-xs-6 {
+        width: 100%;
+    }
+    .content {
+        padding: 0px 10px;
+        margin-bottom: 80px;
     }
 }
 

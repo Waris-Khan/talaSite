@@ -188,7 +188,7 @@ main .fa {
     margin-left: -15px;
     margin-right: -15px;
     /*    width: 100%;*/
-    height: 250px;
+    height: 230px;
     display: block;
     justify-content: center;
     align-content: center;
@@ -385,18 +385,28 @@ main .fa {
 
 .service-wrapper {
     width: 100%;
-    height: 390px;
+    /* height: 390px; */
     /* border: 1px solid red; */
 }
 
 .service-card {
     padding-bottom: 20px;
     padding-top: 20px;
+    /* border-radius: 30px; */
 }
+.service__box{
+    margin-bottom: 100px !important;
+    /* margin: 50px auto; */
+}
+
+/* .service-card:hover{
+    box-shadow: 1px 1px 25px -5px rgba(0,0,0,0.5);
+} */
 
 .service-card:hover h5 {
     /* transform: scale(1.1); */
     color: #25ca7f;
+    transition: 0.5s;
 }
 
 .fa,
@@ -498,10 +508,13 @@ CONTACT PAGE
 
 .contact-form {
     /* border: 1px solid red; */
+    margin: 50px 0px;
+    margin-top: 10px !important;
 }
 
 .cont-form{
     margin-top: 50px;
+    margin-left: -20px;
 }
 
 
@@ -607,6 +620,8 @@ select:-webkit-autofill:focus {
 
 .contact-details {
     padding-left: 50px;
+    margin: 50px 0px;
+    margin-top: 10px !important;
 }
 
 
@@ -660,11 +675,17 @@ footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
+    height: 75px;
     padding: 10px 60px 5px 60px;
     background-color: #232531;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
 }
 
-footer .copy-right {
+/* footer .copy-right {
     float: left;
     padding-top: 2px;
     font-size: 11px;
@@ -673,12 +694,12 @@ footer .copy-right {
 
 footer .social-links {
     float: right;
-}
+} */
 
 footer .social-links a {
     display: inline-block;
     vertical-align: middle;
     margin-left: 12px;
     color: whitesmoke;
-    font-size: 13px;
+    font-size: 15px;
 }
